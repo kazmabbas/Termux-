@@ -36,7 +36,7 @@
     "MONGO_DB_URI": {
       "description": "Get this value from cloud.mongodb.com",
       "required": true,
-      "value": "mongodb+srv://<hamodyroony>:<dd8MPe36qWGT402L>@cluster0.n6gdyyx.mongodb.net/"
+      "value": "mongodb+srv://hamodyroony1:<hamodyroony1>@cluster0.xbiyxky.mongodb.net/?retryWrites=true&w=majority"
     },
     "MUST_JOIN": {
       "description": "Username of a group or channel for which you want to set force sub.(without @)",
