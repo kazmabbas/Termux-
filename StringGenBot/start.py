@@ -12,8 +12,8 @@ async def start(bot: Client, msg: Message):
     me2 = (await bot.get_me()).mention
     await bot.send_message(
         chat_id=msg.chat.id,
-        text=f"""** مـࢪحبـاً ** {msg.from_user.mention},
-اهـلاً بـك فـي {me2},
+        text=f"""** مـࢪحبـاً ** {msg.from_user.mention}
+اهـلاً بـك فـي {me2}
 بوت استخراج كـود تيرمكـس بـوت أمـن متخطـي البانـد 
 """,
         reply_markup=InlineKeyboardMarkup(
