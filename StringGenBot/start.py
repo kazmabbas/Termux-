@@ -14,8 +14,8 @@ async def start(bot: Client, msg: Message):
         chat_id=msg.chat.id,
         text=f"""** مـࢪحبـاً ** {msg.from_user.mention},
 اهـلاً بـك فـي {me2},
-بوت استخراج كـود تيرمكـس بـوت أمـن متخطـي البانـد
-المطـور : [ƊαᎡᴋ](tg://user?id={OWNER_ID}) !""",
+بوت استخراج كـود تيرمكـس بـوت أمـن متخطـي البانـد 
+""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
