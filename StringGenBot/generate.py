@@ -158,7 +158,7 @@ async def generate_session(bot: Client, msg: Message, telethon=False, is_bot: bo
         string_session = client.session.save()
     else:
         string_session = await client.export_session_string()
-    text = f"**{ty} كـود سيـشن** \n\n`{string_session}` \n\n** تم الاستخـراج بواسطـة @BThonTBoT **"
+    text = f"** كـود سيـشن {ty} ** \n\n ** `{string_session}` ** \n\n** تم الاستخـراج بواسطـة @BThonTBoT **"
     try:
         if not is_bot:
             await client.send_message("me", text)
@@ -167,7 +167,7 @@ async def generate_session(bot: Client, msg: Message, telethon=False, is_bot: bo
     except KeyError:
         pass
     await client.disconnect()
-    await bot.send_message(msg.chat.id, "** تم استخـراج كـود جلسـة {} \n  تم اࢪسـال الكـود الرسـائـل المـحفوظـة **".format("تيـليثـون" if telethon else "بايࢪوجـرام"))
+    await bot.send_message(msg.chat.id, "** تم استخـراج كـود سيـشن {} \n  تم اࢪسـال الكـود الـى الرسـائـل المـحفوظـة **".format("تيـليثـون" if telethon else "بايࢪوجـرام"))
 
 
 async def cancelled(msg):
