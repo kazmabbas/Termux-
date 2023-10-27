@@ -53,11 +53,11 @@ async def main(_, msg):
 
 async def generate_session(bot: Client, msg: Message, telethon=False, is_bot: bool = False):
     if telethon:
-        ty = "**تيـليثـون**"
+        ty = "** تيـليثـون **"
     else:
-        ty = "**بايࢪوجـرام**"
+        ty = "** بايࢪوجـرام **"
     if is_bot:
-        ty += "بـوت"
+        ty += "** بـوت **"
     await msg.reply(f"** جـاࢪ عمـل كـود سيـشن **{ty}** ... **")
     user_id = msg.chat.id
     api_id_msg = await bot.ask(user_id, "** ارسـل ايبـي ايـدي \n للـتخطي اࢪسـل /skip **", filters=filters.text)
@@ -167,7 +167,7 @@ async def generate_session(bot: Client, msg: Message, telethon=False, is_bot: bo
     except KeyError:
         pass
     await client.disconnect()
-    await bot.send_message(msg.chat.id, "** تم استخـراج كـود سيـشن {} \n  تم اࢪسـال الكـود الـى الرسـائـل المـحفوظـة **".format("**تيـليثـون**" if telethon else "**بايࢪوجـرام**"))
+    await bot.send_message(msg.chat.id, "** تم استخـراج كـود سيـشن {} \n  تم اࢪسـال الكـود الـى الرسـائـل المـحفوظـة **".format("** تيـليثـون **" if telethon else "** بايࢪوجـرام **"))
 
 
 async def cancelled(msg):
