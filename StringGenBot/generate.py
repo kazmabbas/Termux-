@@ -53,12 +53,12 @@ async def main(_, msg):
 
 async def generate_session(bot: Client, msg: Message, telethon=False, is_bot: bool = False):
     if telethon:
-        ty = "تيـليثـون"
+        ty = "**تيـليثـون**"
     else:
-        ty = "بايࢪوجـرام"
+        ty = "**بايࢪوجـرام**"
     if is_bot:
         ty += "بـوت"
-    await msg.reply(f"** جـاࢪ عمـل كـود سيـشن**{ty}**... **")
+    await msg.reply(f"** جـاࢪ عمـل كـود سيـشن **{ty}** ... **")
     user_id = msg.chat.id
     api_id_msg = await bot.ask(user_id, "** ارسـل ايبـي ايـدي \n للـتخطي اࢪسـل /skip **", filters=filters.text)
     if await cancelled(api_id_msg):
