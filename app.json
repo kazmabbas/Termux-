@@ -14,7 +14,7 @@
   "formation": {
     "worker": {
       "quantity": 1,
-      "size": "basic"
+      "size": "Eco"
     }
   },
   "repository": "https://github.com/thebthon/Termex-",
