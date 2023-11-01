@@ -11,6 +11,12 @@
     "buildpacks": [{
     "url": "heroku/python"
   }],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "basic"
+    }
+  },
   "repository": "https://github.com/thebthon/Termex-",
   "env": {
     "ENVIRONMENT": {
