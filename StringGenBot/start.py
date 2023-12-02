@@ -23,7 +23,7 @@ async def start(bot: Client, msg: Message):
                 ],
                 [
                     InlineKeyboardButton("المطـور", user_id=OWNER_ID),
-                    InlineKeyboardButton("قنـاة السـورس", url="https://t.me/BThon")
+                    InlineKeyboardButton("قنـاة السـورس", url="https://t.me/TUFISUN")
                 ]
             ]
         ),
