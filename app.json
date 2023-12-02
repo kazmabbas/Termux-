@@ -1,7 +1,7 @@
 {
-  "name": "BThon session extraction",
+  "name": "TUFISUN session extraction",
   "description": "استـخࢪاج كـود تيرمكـس ",
-  "logo": "https://graph.org/file/cf19b30b485b6298bfbee.jpg",
+  "logo": "https://telegra.ph/file/b05bb947692ecc3ce958b.jpg",
   "keywords": [
     "telegram",
     "bot",
@@ -17,7 +17,7 @@
       "size": "Eco"
     }
   },
-  "repository": "https://github.com/thebthon/Termex-",
+  "repository": "https://github.com/kazmabbas/Termux-",
   "env": {
     "ENVIRONMENT": {
       "description": "Don't change ANYTHING.",
@@ -27,17 +27,17 @@
     "API_ID": {
       "description": "Get this value from my.telegram.org/apps.",
       "required": true,
-      "value": "26172990"
+      "value": "10215855"
     },
     "API_HASH": {
       "description": "Get this value from my.telegram.org/apps.",
       "required": true,
-      "value": "3a3bcace7885d19c26428116814658f2"
+      "value": "c6eac883d0f3124c86408a907bdde463"
     },
     "OWNER_ID": {
       "description": "Telegram id of the person who will known as owner of the bot.",
       "required": true,
-      "value": "5448642653"
+      "value": "5871764800"
     },
     "MONGO_DB_URI": {
       "description": "Get this value from cloud.mongodb.com",
@@ -47,12 +47,12 @@
     "MUST_JOIN": {
       "description": "Username of a group or channel for which you want to set force sub.(without @)",
       "required": true,
-      "value": "BThon"
+      "value": "T33TD"
     },
     "BOT_TOKEN": {
       "description": "Get this value from @BotFather",
       "required": true,
-      "value": "6056309583:AAEvWAXyRMrgWdp0-EotDGrOtz7ZzKwc_6s"
+      "value": "6665083323:AAEKetY9FlIpOL12Begfy5S0V7cZfQSm3aM"
     }
   }
 }
