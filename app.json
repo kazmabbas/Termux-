@@ -52,7 +52,7 @@
     "BOT_TOKEN": {
       "description": "Get this value from @BotFather",
       "required": true,
-      "value": "6665083323:AAEKetY9FlIpOL12Begfy5S0V7cZfQSm3aM"
+      "value": ""
     }
   }
 }
